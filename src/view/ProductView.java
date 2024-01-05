@@ -30,11 +30,6 @@ public class ProductView {
         System.out.println();
     }
 
-    // public static void viewDeleteProduct(Product product) {
-    // System.out.println("\nProduct below has been deleted.");
-    // display(product);
-    // }
-
     public static void display(Product product) {
         System.out.println("-------------------");
         System.out.println("Code: " + product.getCode());
